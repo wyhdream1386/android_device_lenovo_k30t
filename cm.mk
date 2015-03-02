@@ -15,10 +15,10 @@
 #
 
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/cdma.mk)
+#$(call inherit-product, vendor/cm/config/cdma.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := k30t
+#PRODUCT_RELEASE_NAME := HM2014813
 
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)

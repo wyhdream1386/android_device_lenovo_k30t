@@ -414,4 +414,4 @@ $(call inherit-product, build/target/product/full.mk)
 $(call inherit-product, frameworks/native/build/phone-hdpi-2048-dalvik-heap.mk)
 
 # call the proprietary setup
-#$(call inherit-product, vendor/lenovo/k30t/k30t-vendor.mk)
+$(call inherit-product, vendor/lenovo/k30t/k30t-vendor.mk)
